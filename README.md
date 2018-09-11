@@ -12,6 +12,8 @@ DOUT
 GND
 Cena 100Kč
 
+Pro CO2 je nutné použít MQ135 https://navody.arduino-shop.cz/navody-k-produktum/senzor-plynu-mq-135.html
+
 
 
 Optický senzor kvality ovzduší Sharp GP2Y1010AU0F https://navody.arduino-shop.cz/navody-k-produktum/opticky-senzor-kvality-ovzdusi-sharp-gp2y1010au0f.html
