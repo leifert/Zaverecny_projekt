@@ -20,3 +20,7 @@ Optický senzor kvality ovzduší Sharp GP2Y1010AU0F https://navody.arduino-shop
 Koncentrace prachu ug/m3
 6vodiču
 Cena 250Kč
+
+http://forum.mypower.cz/viewtopic.php?f=19&t=2253&sid=7c6d5585a668146bce83b2f60e9b03bb&start=180
+
+Co2 + display
