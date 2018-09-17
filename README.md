@@ -21,7 +21,7 @@ Jak to bude fungovat...
 Cílem bude sběr dat z čidel - co2, vlhkost, teplota do mqtt serveru (pokud možno s použitím protokolu mqtt ssl)
 Použité prvky:esp8266 esp-e12,DHT22,MQ-135,
 Použité technologie: homie framework
-img VB -ide clion, platformio
+img VB -ide vsCode, platformio
 ukázat jak funguje komunikace
 
 Jak funguje mqtt
