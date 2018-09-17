@@ -18,6 +18,13 @@ http://forum.mypower.cz/viewtopic.php?f=19&t=2253&sid=7c6d5585a668146bce83b2f60e
 
 Jak to bude fungovat...
 
-Výstup bude na displej kde bude udávaná hodnota v ppm + ledky budou značit stupeň kvality (zelená, oranžova, červená)
+Cílem bude sběr dat z čidel - co2, vlhkost, teplota do mqtt serveru (pokud možno s použitím protokolu mqtt ssl)
+Použité prvky:esp8266 esp-e12,DHT22,MQ-135,
+Použité technologie: homie framework
+img VB -ide clion, platformio
+ukázat jak funguje komunikace
+
+Jak funguje mqtt
+
 
 
