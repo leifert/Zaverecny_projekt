@@ -24,6 +24,8 @@ Použité technologie: homie framework
 vsCode, platformio
 
 Zprovoznění platfomia ve Vscodu
+Poznámky:
+sudo usermod -a -G dialout student (Povolení USB portu, pro přenos dat)
 
 
 
