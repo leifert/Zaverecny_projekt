@@ -1,6 +1,6 @@
 # Zaverecny_projekt
 
-Detektor kvality ovzduší(vydýchanost)
+Měřič kvality ovzduší(vydýchanost)
 Vydýchanost vzduchu se dá velmi dobře určit například pomocí měření koncentrace oxidu uhličitého, který lidé vydechují.
 Existuje několik druhů senzorů typu MQ: MQ-2, MQ-3, MQ-4, MQ-5, MQ-6, MQ-7, MQ-135...
 
