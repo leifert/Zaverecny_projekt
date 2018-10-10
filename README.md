@@ -40,7 +40,7 @@ esptool (na vymazani paměti na esp)
            
            
 mosquitto_sub -t '#' -v
-mosquitto_pub -t adresa(/homie/sdf1sd65f1...) -m
+mosquitto_pub -t homie/sdf1sd65f1/switch/on/set -m "true"
 
 
 
