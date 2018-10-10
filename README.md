@@ -29,3 +29,12 @@ sudo usermod -a -G dialout student (Povolení USB portu, pro přenos dat)
 
 
 
+
+platformio
+          pio run
+    upload - pio run -t upload
+           - pio run -t uploadfs
+esptool (na vymazani paměti na esp)
+           - pip install esptool 
+           - esptool.py erase_flash
+
