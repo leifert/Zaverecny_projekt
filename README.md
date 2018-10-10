@@ -40,7 +40,7 @@ esptool (na vymazani paměti na esp)
            
            
 mosquitto_sub -t '#' -v
-mosquitto_pub -m adresa(homiesdf1sd65f1...) -t
+mosquitto_pub -t adresa(/homie/sdf1sd65f1...) -m
 
 
 
