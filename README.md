@@ -37,4 +37,10 @@ platformio
 esptool (na vymazani paměti na esp)
            - pip install esptool 
            - esptool.py erase_flash
+           
+           
+mosquitto_sub -t '#' -v
+mosquitto_pub -m adresa(homiesdf1sd65f1...) -t
+
+
 
