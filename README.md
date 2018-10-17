@@ -50,7 +50,7 @@ esptool.py erase_flash
            
 mosquitto_sub -t '#' -v
 
-mosquitto_pub -t homie/sdf1sd65f1/switch/on/set -m "true"
+mosquitto_pub -t homie/sdf1sd65f1(jmeno)/switch/on/set -m "true"
 
 Knihovny: https://platformio.org/lib
 
