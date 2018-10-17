@@ -30,17 +30,26 @@ sudo usermod -a -G dialout student (Povolení USB portu, pro přenos dat)
 
 
 platformio
+
 pio run
+
 upload 
+
 pio run -t upload
+
 pio run -t uploadfs
+
 pio device monitor
+
 esptool (na vymazani paměti na esp)
+
 pip install esptool 
+
 esptool.py erase_flash
            
            
 mosquitto_sub -t '#' -v
+
 mosquitto_pub -t homie/sdf1sd65f1/switch/on/set -m "true"
 
 
