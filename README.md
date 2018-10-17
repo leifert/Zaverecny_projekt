@@ -59,5 +59,9 @@ Knihovna pro DHT senzor: ID 19: https://platformio.org/lib/show/19/DHT%20sensor%
 Knihovna pro MQ-135: ID 2537:  https://platformio.org/lib/show/2537/TroykaMQ
 
 
+Datasheets: 
+![alt text](https://github.com/leifert/Zaverecny_projekt/blob/master/esp8266.png)
+
+
 
 
