@@ -62,6 +62,10 @@ Knihovna pro MQ-135: ID 2537:  https://platformio.org/lib/show/2537/TroykaMQ
 Datasheets: 
 ![alt text](https://github.com/leifert/Zaverecny_projekt/blob/master/esp8266.png)
 
+![alt text](https://github.com/leifert/Zaverecny_projekt/blob/master/dht11.png)
+
+![alt text](https://github.com/leifert/Zaverecny_projekt/blob/master/MQ2-Gas-sensor-Pinout.jpg)
+
 
 
 
