@@ -28,8 +28,11 @@ Poznámky:
 sudo usermod -a -G dialout student (Povolení USB portu, pro přenos dat)
 
 Pozor existuje několik verzí Homie!! My používáme v2.0.0 pak je ale ještě verze 1.5 a to má odlišný syntax! Pokud se vám objeví taková hláška: error: 'class HomieInternals::HomieClass' has no member named 'setNodeProperty' Tak máte verzi 2.0.0 ale používate syntax verze 1.5 !!
+
 Tady malá ukázka: 
+
  temperatureNode.setProperty("unit").setRetained(true).send("C"); // v2.0.0
+ 
  Homie.setNodeProperty(temperatureNode, "unit", "c", true);       // v1.5
 
 
