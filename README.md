@@ -31,9 +31,13 @@ Pozor existuje několik verzí Homie!! My používáme v2.0.0 pak je ale ještě
 
 Tady malá ukázka: 
 
- temperatureNode.setProperty("unit").setRetained(true).send("C"); // v2.0.0
+ temperatureNode.setProperty("unit").send("c");                    // v2.0.0
  
- Homie.setNodeProperty(temperatureNode, "unit", "c", true);       // v1.5
+ temperatureNode.setProperty("degrees").send(String(temperature)); // v2.0.0
+ 
+HomieNode temperatureNode("temperature", "temperature");             // v1.5
+
+Homie.setNodeProperty(temperatureNode, "degrees", String(temperature), true)   // v1.5
 
 
 
