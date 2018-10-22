@@ -64,6 +64,10 @@ mosquitto_sub -t '#' -v
 
 mosquitto_pub -t homie/sdf1sd65f1(jmeno)/switch/on/set -m "true"
 
+VsCode: https://code.visualstudio.com/
+
+Mosquitto mqtt: https://mosquitto.org/download/
+
 Knihovny: https://platformio.org/lib
 
 Knihovna pro DHT senzor: ID 19: https://platformio.org/lib/show/19/DHT%20sensor%20library
