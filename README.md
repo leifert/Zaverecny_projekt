@@ -51,7 +51,7 @@ pio run -t upload
 
 pio run -t uploadfs
 
-pio device monitor
+pio device monitor -b 115200
 
 esptool (na vymazani paměti na esp)
 
