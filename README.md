@@ -82,11 +82,19 @@ Návod na instalaci ve windows:
 
 Nainstalovat python: https://www.python.org/downloads/
 
-Do terminálu napsat: pip3 install homeassistant
+Do terminálu napsat: 
+
+pip3 install homeassistant
 
 hass --open-ui
 
 http://localhost:8123
+
+Konfigurační soubor(configuration.yaml) se nachází ve :C:\Users\[jmeno]\AppData\Roaming\.homeassistant
+
+K otevírání doporučuji Notepad++. U jiných byl problém s uložením.
+
+AppData je neviditelná složka, takže buď si zobrazte i nevidelné složky nebo do vyhledavání napište %appdata%
 
 
 Datasheets: 
