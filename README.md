@@ -62,6 +62,8 @@ esptool.py erase_flash
            
 mosquitto_sub -t '#' -v
 
+mosquitto_sub -v -t #
+
 mosquitto_pub -t homie/sdf1sd65f1(jmeno)/switch/on/set -m "true"
 
 VsCode: https://code.visualstudio.com/
@@ -73,6 +75,18 @@ Knihovny: https://platformio.org/lib
 Knihovna pro DHT senzor: ID 19: https://platformio.org/lib/show/19/DHT%20sensor%20library
 
 Knihovna pro MQ-135: ID 2537:  https://platformio.org/lib/show/2537/TroykaMQ
+
+Home Assistant: https://www.home-assistant.io
+
+Návod na instalaci ve windows:
+
+Nainstalovat python: https://www.python.org/downloads/
+
+Do terminálu napsat: pip3 install homeassistant
+
+hass --open-ui
+
+http://localhost:8123
 
 
 Datasheets: 
