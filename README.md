@@ -96,6 +96,36 @@ K otevírání doporučuji Notepad++. U jiných byl problém s uložením.
 
 AppData je neviditelná složka, takže buď si zobrazte i nevidelné složky nebo do vyhledavání napište %appdata%
 
+Ukázka pro dht sensors:
+
+mqtt:
+
+  #broker: Vaše IP stroje
+  
+  protocol: 3.1
+  
+  port: 1883
+  
+  discovery: true
+  
+  discovery_prefix: homeassistant
+  
+  sensor: 
+    
+  - platform: mqtt
+  
+    state_topic: 'homeassistant/sensor/temperature_celsius/'
+    
+    name: "Temperature Celsius"
+    
+    unit_of_measurement: '°C'   
+
+  - platform: mqtt
+    state_topic: 'homeassistant/sensor/humidity/'
+    
+    name: "Humidity"
+    
+    unit_of_measurement: '%'  
 
 Datasheets: 
 ![alt text](https://github.com/leifert/Zaverecny_projekt/blob/master/esp8266.png)
