@@ -74,7 +74,11 @@ Knihovny: https://platformio.org/lib
 
 Knihovna pro DHT senzor: ID 19: https://platformio.org/lib/show/19/DHT%20sensor%20library
 
-Knihovna pro MQ-135: ID 2537:  https://platformio.org/lib/show/2537/TroykaMQ
+Knihovna pro MQ-135:  https://github.com/GeorgK/MQ135
+
+Kalibrace mq135
+
+https://hackaday.io/project/3475-sniffing-trinket/log/12363-mq135-arduino-library
 
 Home Assistant: https://www.home-assistant.io
 
