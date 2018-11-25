@@ -1,0 +1,14 @@
+{
+  "name": "esp8266",
+  "wifi": {
+    "ssid": "jmeno",
+    "password": "heslo"
+  },
+  "mqtt": {
+    "host": "adresa na ktere bezi mqtt",
+    "port": 1883
+  },
+  "ota": {
+    "enabled": false
+  }
+}
