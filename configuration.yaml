@@ -64,7 +64,7 @@ mqtt:
 
 sensor:
   platform: mqtt
-  state_topic: "sensor/temperature_celsius"
+  state_topic: "homie/5ccf7f0fe9ad/teplota/celsia"
   name: "Teplota"
   qos: 0
   unit_of_measurement: "°C"
@@ -72,14 +72,14 @@ sensor:
 
 sensor 2: 
   platform: mqtt
-  state_topic: "sensor/humidity"
+  state_topic: "homie/5ccf7f0fe9ad/vlhkost/procent"
   name: "Vlhkost"
   qos: 0
   unit_of_measurement: "%" 
 
 sensor 3: 
   platform: mqtt
-  state_topic: "sensor/co2"
+  state_topic: "homie/5ccf7f0fe9ad/CO2/PPM"
   name: "CO2"
   qos: 0
   unit_of_measurement: "PPM" 
