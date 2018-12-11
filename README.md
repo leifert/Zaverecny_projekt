@@ -80,6 +80,8 @@ Kalibrace mq135
 
 https://hackaday.io/project/3475-sniffing-trinket/log/12363-mq135-arduino-library
 
+https://www.instructables.com/id/IoT-Air-Quality-Sensor/
+
 Home Assistant: https://www.home-assistant.io
 
 Návod na instalaci ve windows:
