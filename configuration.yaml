@@ -66,6 +66,7 @@ sensor:
   platform: mqtt
   state_topic: "homie/5ccf7f0fe9ad/teplota/celsia"
   name: "Teplota"
+  entity: sensor.teplota
   qos: 0
   unit_of_measurement: "°C"
  
@@ -74,6 +75,7 @@ sensor 2:
   platform: mqtt
   state_topic: "homie/5ccf7f0fe9ad/vlhkost/procent"
   name: "Vlhkost"
+  entity: sensor.vlhkost
   qos: 0
   unit_of_measurement: "%" 
 
@@ -81,8 +83,21 @@ sensor 3:
   platform: mqtt
   state_topic: "homie/5ccf7f0fe9ad/CO2/PPM"
   name: "CO2"
+  entity: sensor.co2
   qos: 0
   unit_of_measurement: "PPM" 
+  
+history_graph:
+  gr1:
+    name: Teplota
+    entities:
+      - sensor.teplota
+    refresh: 60
+  gr2:
+    name: CO2
+    entities:
+      - sensor.co2
+    refresh: 60
 
 group: !include groups.yaml
 automation: !include automations.yaml
