@@ -19,7 +19,7 @@ http://forum.mypower.cz/viewtopic.php?f=19&t=2253&sid=7c6d5585a668146bce83b2f60e
 Jak to bude fungovat...
 
 Cílem bude sběr dat z čidel - co2, vlhkost, teplota do mqtt serveru (pokud možno s použitím protokolu mqtt ssl)
-Použité prvky:esp8266 esp-e12,DHT22,MQ-135,
+Použité prvky:esp8266 esp-e12,DHT11,MQ-135,
 Použité technologie: homie framework
 vsCode, platformio
 
