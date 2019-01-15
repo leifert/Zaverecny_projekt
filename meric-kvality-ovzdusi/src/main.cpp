@@ -4,7 +4,7 @@
 #define MQ135PIN A0 //nastavení propojovácích pinů
 #define DHTPIN 5
 #define DHTTYP DHT11 //určení o jaký teplotní senzor se jedná
-#define INTERVAL 300 //po kolika sekundách má data posílat na MQTT server
+#define INTERVAL 5 //po kolika sekundách má data posílat na MQTT server
 unsigned long lastSent = 0;
 
 DHT dht(DHTPIN, DHTTYP); //inicializace senzorů z knihoven
@@ -30,30 +30,28 @@ void loopHandler() {
       float teplota = dht.readTemperature(); //načtení teploty do proměnné
       float vlhkost = dht.readHumidity(); //načtení vlhkosti do proměnné
       float co2 = mq135.readCO2(); //načtení koncentrace CO2 do proměnné
-
-		if (co2 >= 350 && co2 <= 1000) {
-			digitalWrite(12, HIGH);  
-			digitalWrite(14, LOW);
-			digitalWrite(12, LOW);
-		  }
-		  else if (co2 >= 1001 && co2 <= 1500) {
+		if (co2 >= 350 && co2 <= 1000) { //Zelená
+		  digitalWrite(12, HIGH);  
+		  digitalWrite(14, LOW);
+		  digitalWrite(4, LOW);
+		}
+		else if (co2 >= 1001 && co2 <= 1500) { //žlutá
 			digitalWrite(12, LOW);  
 			digitalWrite(14, HIGH);
 			digitalWrite(4, LOW);
-		  }
-		  else if (co2 > 1500) {
+		}
+		else if (co2 > 1500) { //Červená
 			digitalWrite(12, LOW);  
 			digitalWrite(14, LOW);  
 			digitalWrite(4, HIGH);
-		  }
-      teplotaNode.setProperty("celsia").send(String(teplota)); //odeslání prměnných na MQTT server
-      vlhkostNode.setProperty("procent").send(String(vlhkost));
-      co2Node.setProperty("PPM").send(String(co2));
-        lastSent = millis();
+		}
+    teplotaNode.setProperty("celsia").send(String(teplota)); //odeslání prměnných na MQTT server
+    vlhkostNode.setProperty("procent").send(String(vlhkost));
+    co2Node.setProperty("PPM").send(String(co2));
+      lastSent = millis();
   }
-    
-  
 }
+
 
 void setup() {
   Serial.begin(115200); //inicializace komunikace po seriové lince rychlostí 115200 baudů
